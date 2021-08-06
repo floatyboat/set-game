@@ -1,0 +1,116 @@
+/*
+  Spencer Boat
+  4/16/19
+  This is the CSS style page for milestone.html and set.html.
+*/
+
+body{
+  text-align: center;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+button, select {
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#menu-view article{
+  background-color: #6F77ED;
+  border-width: 5pt;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.35em;
+  font-size: 12pt;
+}
+
+#menu-view article p, #menu-view article h2 {
+  color: white;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+select, #start {
+  background-color: white;
+  border-width: 2pt;
+  border-style: solid;
+  border-color: black;
+}
+
+#start {
+  width: 100px;
+  margin-top: 10px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 220px;
+  height: 95px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.35em;
+  border-radius: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selected {
+  box-shadow: 6px 6px #636363;
+}
+
+.card img {
+  height: 85%;
+}
+
+#details {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.5em 0.5em 0em 0em;
+  color: white;
+  font-size: 14pt;
+}
+
+#main-btn, #refresh {
+  color: black;
+  background-color: white;
+  padding: 8px;
+  font-size: 12pt;
+}
+
+#game {
+  border-style: solid;
+  border-color: black;
+  border-width: 0pt 5pt 5pt;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+}
